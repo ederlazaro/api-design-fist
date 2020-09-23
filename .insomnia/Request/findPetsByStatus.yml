@@ -1,0 +1,30 @@
+_id: findPetsByStatus
+type: Request
+parentId: fld_wrk_0c8ec6ebf70d4aeb9c6e18b82b96a28c1b034c38
+modified: 1600889826735
+created: 1600889809840
+url: "{{ base_url }}/pet/findByStatus"
+name: Finds Pets by status
+description: Multiple status values can be provided with comma separated strings
+method: GET
+body: {}
+parameters:
+  - name: status
+    disabled: false
+    value: available
+headers: []
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  disabled: false
+  authorizationUrl: https://petstore.swagger.io/oauth/authorize
+  clientId: "{{ client_id }}"
+  scope: write:pets read:pets
+metaSortKey: -1600889809840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

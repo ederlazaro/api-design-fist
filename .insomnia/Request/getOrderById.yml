@@ -1,0 +1,22 @@
+_id: getOrderById
+type: Request
+parentId: fld_wrk_0c8ec6ebf70d4aeb9c6e18b82b96a28c3a21295d
+modified: 1600889826724
+created: 1600889809831
+url: "{{ base_url }}/store/order/{{ orderId }}"
+name: Find purchase order by ID
+description: For valid response try integer IDs with value >= 1 and <= 10. Other
+  values will generated exceptions
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1600889809831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
